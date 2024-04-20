@@ -1,0 +1,715 @@
+* {
+    box-sizing: border-box;
+    margin: 0PX;
+    padding: 0PX;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 20px;
+}
+
+header {
+    height: 100px;
+    background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+}
+
+header img {
+    width: 120px;
+    height: 60px;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+header h1 {
+    margin-left: 350px;
+    position: relative;
+    bottom: 50px;
+    color: #583d1c;
+}
+
+nav {
+    height: 50px;
+    background-color: #a3763a;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+nav ul li {
+    margin-top: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #a3763a;
+    background-color: #e7bf8a;
+    border-radius: 20% 0% 20% 0%;
+    border: 2px dashed #a3763a;
+}
+
+section {
+    height: 300px;
+    width: 100%;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5) 70%, rgb(0, 0, 0, 0.5) 30%), url(../imags/section1.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+section .a {
+    background-color: rgb(207, 184, 122);
+    width: 200px;
+    height: 100px;
+    border-radius: 50% 0 50% 0;
+    border: 2px dotted rgb(99, 69, 30);
+    position: relative;
+    left: 600px;
+    top: 150px;
+}
+
+section .a a {
+    text-decoration: none;
+    color: #583d1ccb;
+    position: relative;
+    left: 45px;
+    bottom: -35px;
+    font-size: 20px;
+}
+
+section .a:hover {
+    border-radius: 50%;
+}
+
+section .sec i {
+    position: relative;
+    top: 275px;
+    left: 620px;
+    font-size: 30px;
+}
+
+section .sec h1 {
+    position: relative;
+    top: 250px;
+    margin-left: 650px;
+    color: #583d1c;
+}
+
+section .img1 {
+    margin-top: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: linear-gradient(90deg, rgba(28, 21, 40, 1) 0%, rgba(227, 211, 169, 1) 0%, rgba(221, 202, 150, 1) 4%, rgba(207, 181, 111, 1) 12%, rgba(182, 155, 86, 1) 17%, rgba(190, 152, 68, 1) 50%, rgba(217, 199, 137, 1) 100%);
+    height: 1000px;
+    border-radius: 30%;
+}
+
+section .img1:hover {
+    border: 5px dashed rgb(121, 100, 70);
+}
+
+section .sec img {
+    width: 150px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 100px;
+    transition: 1s;
+}
+
+section .img2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+section .img2 img {
+    position: relative;
+    bottom: 800px;
+}
+
+section .img3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+section .img3 img {
+    position: relative;
+    bottom: 800px;
+}
+
+section .img4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+section .img4 img {
+    position: relative;
+    bottom: 800px;
+}
+
+section .sec img:hover {
+    transform: scale(2);
+}
+
+section .about {
+    position: relative;
+    bottom: 500PX;
+}
+
+section .about h1 {
+    position: relative;
+    bottom: 90px;
+    margin-left: 650px;
+    color: #583d1c;
+}
+
+section .about i {
+    position: relative;
+    bottom: 70px;
+    left: 610px;
+    font-size: 30px;
+}
+
+section .about img {
+    width: 500px;
+    height: 250px;
+    margin-left: 100px;
+}
+
+section .about h3 {
+    float: right;
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+}
+
+section .bag {
+    position: relative;
+    bottom: 700px;
+}
+
+section .bags:hover {
+    border: 5px dashed rgb(121, 100, 70);
+}
+
+section .bag h1 {
+    position: relative;
+    top: 200px;
+    margin-left: 650px;
+    color: #583d1c;
+}
+
+section .bag i {
+    position: relative;
+    top: 220px;
+    left: 610px;
+    font-size: 30px;
+}
+
+section .imags {
+    margin-top: 200px;
+    background: linear-gradient(90deg, rgba(28, 21, 40, 1) 0%, rgba(227, 211, 169, 1) 0%, rgba(221, 202, 150, 1) 4%, rgba(207, 181, 111, 1) 12%, rgba(182, 155, 86, 1) 17%, rgba(190, 152, 68, 1) 50%, rgba(217, 199, 137, 1) 100%);
+    height: 1000px;
+    border-radius: 30%;
+    margin-bottom: 10px;
+}
+
+section .imags:hover {
+    border: 5px dashed rgb(121, 100, 70);
+}
+
+section .bag1 img {
+    width: 150px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 100px;
+    transition: 1s;
+}
+
+section .bag2 img {
+    width: 150px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 100px;
+    transition: 1s;
+}
+
+section .bag3 img {
+    width: 150px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 100px;
+    transition: 1s;
+}
+
+section .bag4 img {
+    width: 150px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 100px;
+    transition: 1s;
+}
+
+section .bag1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+section .bag2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+section .bag3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+section .bag4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+section .imags img:hover {
+    transform: scale(2);
+}
+
+/* media query */
+
+@media( (min-width:900px) and (max-width:1149px)){
+   
+    header h1 {
+        font-size: 20px;
+    }
+   
+    section .a {
+        width: 100x;
+        height: 80px;
+        left: 450px;
+    }
+    
+    section .a a {
+        left: 40px;
+        bottom: -30px;
+        font-size: 22px;
+    }
+    
+    section .a:hover {
+        border-radius: 50%;
+    }
+    section .sec i {
+        top: 275px;
+        left: 480px;
+    }
+    
+    section .sec h1 {
+        top: 250px;
+        margin-left: 520px;
+    }
+    section .sec img {
+        width: 150px;
+        height: 110px;
+        margin-top: 100px;
+        margin-left: 50px;
+        transition: 1s;
+    }
+    section .about h1 {
+        position: relative;
+        bottom: 50px;
+        margin-left: 520px;
+        color: #583d1c;
+    }
+    
+    section .about i {
+        position: relative;
+        bottom: 30px;
+        left: 480px;
+        font-size: 30px;
+    }
+    section .about img {
+        width: 300px;
+        height: 150px;
+        margin-left: 100px;
+    }
+    
+    section .about{
+      margin-bottom: 80px;
+    }
+    section .about h3 {
+        font-size: 15px; 
+        top: 1px;
+        right: 30px;
+    }
+    section .bag h1 {
+        top:200px;
+        margin-left: 510px;
+    }
+    
+    section .bag i {
+        position: relative;
+        top: 220px;
+       margin-left: -130px;
+        font-size: 30px;
+    }
+    section .imags img {
+        width: 150px;
+        height: 110px;
+        margin-left: 30px;
+        
+    }
+}
+@media( (min-width:800px) and (max-width:899px)){
+    
+    header h1 {
+        font-size: 17px;
+    }
+   
+    section .a {
+        width: 50x;
+        height: 80px;
+        left: 350px;
+    }
+    
+    section .a a {
+        left: 40px;
+        bottom: -30px;
+        font-size: 20px;
+    }
+    
+    section .a:hover {
+        border-radius: 50%;
+    }
+
+    section .sec i {
+        top: 280px;
+        left: 350px;
+    }
+    
+    section .sec h1 {
+        top: 255px;
+        margin-left: 380px;
+    }
+    section .sec img {
+        width: 100px;
+        height: 75px;
+        margin-top: 140px;
+        margin-left: 30px;
+    }
+  
+    section .about h1 {
+        position: relative;
+        bottom: 80px;
+        margin-left: 430px;
+    }
+    
+    section .about i {
+        position: relative;
+        bottom:55px;
+        left: 390px;
+        font-size: 30px;
+    }
+    section .about img {
+        width: 250px;
+        height: 150px;
+        margin-left: 60px;
+        margin-top: 50px;
+    }
+    
+    section .about{
+      margin-bottom: 100px;
+    }
+    section .about h3 {
+        font-size: 14px; 
+        top: 1px;
+        right: 30px;
+    }
+    section .bag h1 {
+        top:180px;
+        margin-left: 440px;
+    }
+    
+    section .bag i {
+        position: relative;
+        top: 200px;
+       margin-left: -200px;
+        font-size: 30px;
+    }
+    section .imags img {
+        width: 100px;
+        height: 75px;
+        margin-top: 140px;
+        margin-left: 30px;
+    }
+
+}
+@media( (min-width:700px) and (max-width:799px)){
+    header img{
+        margin-left: 100px;
+    }
+
+    header h1 {
+        font-size: 15px;
+        margin-left: 280px;
+    }
+   
+    section .a {
+        width: 20x;
+        height: 80px;
+        left: 290px;
+    }
+    
+    section .a a {
+        left: 40px;
+        bottom: -30px;
+        font-size: 20px;
+    }
+    
+    section .a:hover {
+        border-radius: 50%;
+    }
+    section .sec i {
+        top: 280px;
+        left: 250px;
+    }
+    
+    section .sec h1 {
+        top: 255px;
+        margin-left: 280px;
+    }
+    section .sec img {
+        width: 100px;
+        height: 75px;
+        margin-top: 140px;
+        margin-left: 30px;
+    }
+   
+    section .about h1 {
+        position: relative;
+        bottom: 80px;
+        margin-left: 330px;
+    }
+    section .about i {
+        position: relative;
+        bottom:55px;
+        left: 290px;
+        font-size: 30px;
+    }
+    section .about img {
+        width: 250px;
+        height: 150px;
+        margin-left: 60px;
+        margin-top: 50px;
+    }
+    
+    section .about{
+      margin-bottom: 100px;
+    }
+    section .about h3 {
+        font-size: 14px; 
+        top: 1px;
+        right: 20px;
+    }
+    section .bag h1 {
+        top:180px;
+        margin-left: 340px;
+    }
+    section .bag i {
+        position: relative;
+        top: 200px;
+       margin-left: -300px;
+        font-size: 30px;
+    }
+    section .imags img {
+        width: 80px;
+        height: 75px;
+        margin-top: 140px;
+        margin-left: 30px;
+    }  
+}
+@media( (min-width:600px) and (max-width:699px)){
+    header img{
+        margin-left: 100px;
+    }
+
+    header h1 {
+        font-size: 13px;
+        margin-left: 280px;
+    }
+   
+    section .a {
+        width: 20x;
+        height: 80px;
+        left: 200px;
+    }
+    
+    section .a a {
+        left: 40px;
+        bottom: -30px;
+        font-size: 20px;
+    }
+    
+    section .a:hover {
+        border-radius: 50%;
+    }
+    section .sec i {
+        top: 280px;
+        left: 250px;
+    }
+    
+    section .sec h1 {
+        top: 255px;
+        margin-left: 280px;
+    }
+    section .sec img {
+        width: 80px;
+        height: 75px;
+        margin-top: 140px;
+        margin-left: 30px;
+    }
+
+    section .about h1 {
+        position: relative;
+        bottom: 80px;
+        margin-left: 330px;
+    }
+    section .about i {
+        position: relative;
+        bottom:55px;
+        left: 290px;
+        font-size: 30px;
+    }
+    section .about img {
+        width: 440px;
+        height: 270px;
+        margin-left: 130px;
+        margin-top: 50px;
+        position: relative;
+        bottom: 80px;
+    }
+    
+    section .about{
+      margin-bottom: 100px;
+    }
+    section .about h3 {
+        position: relative;
+        font-size: 15px; 
+        top: 1px;
+        right: 80px;
+        bottom: 80px;
+        margin-bottom: 40px;
+    }
+    section .bag h1 {
+        top:180px;
+        margin-left: 340px;
+    }
+    section .bag i {
+        position: relative;
+        top: 350px;
+       margin-left: -300px;
+        font-size: 30px;
+    }
+    section .imags img {
+        width: 80px;
+        height: 75px;
+        margin-top: 140px;
+        margin-left: 30px;
+    }  
+}
+@media( (min-width:400px) and (max-width:599px)){
+    header img{
+        margin-left: 50px;
+    }
+
+    header h1 {
+        font-size: 12px;
+        margin-left: 200px;
+    }
+   
+    section .a {
+        width: 10x;
+        height: 80px;
+        left: 150px;
+    }
+    
+    section .a a {
+        left: 40px;
+        bottom: -30px;
+        font-size: 20px;
+    }
+    
+    section .sec i {
+        top: 280px;
+        left: 150px;
+    }
+    
+    section .sec h1 {
+        top: 255px;
+        margin-left: 180px;
+    }
+    section .sec img {
+        width: 60px;
+        height: 55px;
+        margin-top: 140px;
+        margin-left: 30px;
+    }
+
+    section .about h1 {
+        position: relative;
+        bottom: 80px;
+        margin-left: 230px;
+    }
+    section .about i {
+        position: relative;
+        bottom:55px;
+        left: 190px;
+        font-size: 30px;
+    }
+    section .about img {
+        width: 340px;
+        height: 170px;
+        margin-left: 70px;
+        margin-top: 50px;
+        position: relative;
+        bottom: 80px;
+    }
+    
+    section .about{
+      margin-bottom: 100px;
+    }
+    section .about h3 {
+        position: relative;
+        font-size: 15px; 
+        top: 1px;
+        right: 30px;
+        bottom: 80px;
+        margin-bottom: 40px;
+    }
+    section .bag h1 {
+        top:180px;
+        margin-left: 240px;
+    }
+    section .bag i {
+        position: relative;
+        top: 350px;
+       margin-left: -400px;
+        font-size: 30px;
+    }
+    section .imags img {
+        width: 60px;
+        height: 55px;
+        margin-top: 140px;
+        margin-left: 30px;
+    }  
+}
